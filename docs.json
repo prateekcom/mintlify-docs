@@ -27,7 +27,9 @@
               "essentials/job-posting",       
               "essentials/careers-portal",          
               "essentials/pre-screening" ,           
-              "essentials/ai-shortlisting"            
+              "essentials/ai-shortlisting",            
+              "essentials/setting-custom-domain",            
+              "essentials/share-job"   
             ]
           }
         ]
