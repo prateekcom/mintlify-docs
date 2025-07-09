@@ -17,8 +17,8 @@
             "group": "Get Started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "quickstart"
+           
             ]
           },
           {
@@ -39,11 +39,7 @@
     "global": {
       "anchors": [
        
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
+      
         {
           "anchor": "Blog",
           "href": "https://agentr.global/blog",
