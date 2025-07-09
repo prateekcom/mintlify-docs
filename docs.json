@@ -61,8 +61,8 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Signup",
+      "href": "https://app.agentr.global/admin/signup"
     }
   },
   "footer": {
