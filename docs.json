@@ -16,20 +16,35 @@
           {
             "group": "Get Started",
             "pages": [
-              "index",
-              "quickstart"
+              "index"            
+            ]
+          },
+          {
+            "group": "Quick Start",
+            "pages": [
+               "quickstart",
+                "essentials/job-posting"
+              
+              
+            ]
+          },
+          {
+            "group": "Changelog",
+            "pages": [
+              "product-updates"
            
             ]
           },
           {
             "group": "Essentials",
             "pages": [
-              "essentials/job-posting",       
+                 
+              "essentials/setting-custom-domain",            
               "essentials/careers-portal",          
               "essentials/pre-screening" ,           
               "essentials/ai-shortlisting",            
-              "essentials/setting-custom-domain",            
-              "essentials/share-job"   
+              "essentials/share-job",   
+              "essentials/job-description"   
             ]
           }
         ]
@@ -61,7 +76,7 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Signup",
+      "label": "Sign Up",
       "href": "https://app.agentr.global/admin/signup"
     }
   },
