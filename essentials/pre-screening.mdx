@@ -6,29 +6,124 @@ icon: 'filter'
 
 # ⚙️ Automated Pre-screening
 
----
-
-The **Automated Pre-screening** feature helps you streamline your recruitment process by filtering out unqualified candidates before human review. It saves time and ensures only relevant applications proceed further.
-
-### 🛠 How it works
-
-1. **Set Qualification Criteria**
-   - Define key qualifications like years of experience, skills, location, etc.
-   - Criteria can be configured per job during the job creation or edit flow.
-
-2. **System Filters Applicants**
-   - Every application submitted is automatically checked against the set criteria.
-   - Those that fail to meet the baseline are marked or hidden from your review queue.
-
-3. **View Filtered Applicants**
-   - You can toggle between **All Applicants** and **Pre-screened** applicants in the job dashboard.
-
-> 💡 This is especially helpful when handling high-volume job applications.
+The Automated Pre-screening feature helps streamline your recruitment workflow by combining resume analysis and intelligent candidate interaction, so only qualified, relevant applicants make it to your review stage.
 
 ---
 
-### ✅ Benefits
+## 🔍 What It Does
 
-- Saves recruiter time on manual filtering.
-- Reduces chances of bias.
-- Ensures only qualified candidates reach the next step.
+Automatically screens candidates right after they apply, by:
+
+- Analyzing resumes  
+- Matching them with the Job Description (JD)  
+- Initiating a dynamic chat to evaluate skills and intent  
+- Generating a comprehensive candidate report  
+
+---
+
+## 🛠 How It Works
+
+### 1. Resume Upload  
+Once a candidate applies, they are prompted to upload their resume.
+
+### 2. Resume & JD Matching  
+The platform’s AI engine scans the resume and matches it against the job-specific criteria such as:
+
+- Experience  
+- Skills  
+- Location  
+- Education  
+
+### 3. Intelligent Chat Screening  
+Once the resume is uploaded:
+
+- A chat session is triggered automatically  
+- The virtual assistant asks 10–12 contextual questions:
+  - 3–4 HR questions (e.g., notice period, preferred location, expected CTC)  
+  - 7–8 technical/domain-specific questions based on the JD  
+
+### 4. Report Generation  
+Based on:
+
+- Resume match results  
+- Chat responses  
+
+The system generates a **pre-screening report** to help you identify the most relevant candidates.
+
+---
+## 🧾 Candidate Status Stages
+<table>
+  <thead>
+    <tr className="text-lg">
+      <th>Status</th>
+      <th>What It Means</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td  style={{ verticalAlign: 'middle', textAlign: 'center' }}>
+        <img
+          src="/images/completed.svg"
+          alt="Completed status"
+        />
+      </td>
+      <td style={{ verticalAlign: 'middle' }}  >
+The candidate has uploaded the resume, completed the chat interaction, and the screening report has been successfully generated.
+      </td>
+    </tr>
+    <tr>
+      <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>
+        <img
+          src="/images/screening.svg"
+          alt="Screening status"
+          
+        />
+      </td>
+      <td style={{ verticalAlign: 'middle' }}>
+The candidate has uploaded the resume, and the chat session is currently in progress.
+      </td>
+    </tr>
+    <tr>
+      <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>
+        <img
+          src="/images/processing.svg"
+          alt="Processing status"
+        />
+      </td>
+      <td style={{ verticalAlign: 'middle' }}>
+The resume has been uploaded, but the candidate has not yet started or completed the chat session.
+      </td>
+    </tr>
+    <tr>
+      <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>
+        <img
+          src="/images/not-uploaded.svg"
+          alt="Not uploaded status"
+        />
+      </td>
+      <td style={{ verticalAlign: 'middle' }}>
+The candidate has not uploaded their resume yet.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+## 🖥️ Recruiter Dashboard View
+
+You can toggle between:
+
+- **All Applicants**  
+- **Pre-screened Applicants**  
+- **Applicants by Status** (Completed, Screening, etc.)
+
+> 💡 Especially powerful when managing high-volume applications, as it cuts down manual filtering significantly.
+
+---
+
+## ✅ Benefits
+
+- Saves recruiter time on resume screening and basic Q&A  
+- Reduces bias with AI-led screening  
+- Improves match quality — only relevant candidates move forward  
+- Provides structured insights for faster decisions  

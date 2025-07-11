@@ -64,7 +64,7 @@
     }
   },
   "logo": {
-    "light": "/logo/AgentR-dark.png",
+    "light": "/logo/AgentR-dark.svg",
     "dark": "/logo/AgentR-light.svg"
   },
   "navbar": {
