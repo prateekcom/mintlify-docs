@@ -1,0 +1,88 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "AgentR Hub | Hiring Resources, Guides & Tools",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "favicon": "/favicon.ico",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "index"            
+            ]
+          },
+          {
+            "group": "Quick Start",
+            "pages": [
+               "quickstart",
+                "essentials/job-posting"
+              
+              
+            ]
+          },
+          {
+            "group": "Changelog",
+            "pages": [
+              "product-updates"
+           
+            ]
+          },
+          {
+            "group": "Essentials",
+            "pages": [
+                 
+              "essentials/setting-custom-domain",            
+              "essentials/careers-portal",          
+              "essentials/pre-screening" ,           
+              "essentials/ai-shortlisting",            
+              "essentials/share-job",   
+              "essentials/job-description"   
+            ]
+          }
+        ]
+      }
+     
+    ],
+    "global": {
+      "anchors": [
+       
+      
+        {
+          "anchor": "Blog",
+          "href": "https://agentr.global/blog",
+          "icon": "newspaper"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/AgentR-dark.svg",
+    "dark": "/logo/AgentR-light.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:contact@agentr.global"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Sign Up",
+      "href": "https://app.agentr.global/admin/signup"
+    }
+  },
+  "footer": {
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/agentr"
+    }
+  }
+}
