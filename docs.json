@@ -44,7 +44,8 @@
               "essentials/pre-screening" ,           
               "essentials/ai-shortlisting",            
               "essentials/share-job",   
-              "essentials/job-description"   
+              "essentials/job-description",
+              "essentials/additional-settings"
             ]
           }
         ]
